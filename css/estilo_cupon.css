@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background-image: url(../image/cafe1.jpg);
+	font-family: Century Gothic;
+	align-items: center;
+		background-size: cover;
+
+}
+.image-cupon{
+	width: 250px;
+	height: 250px;	
+	box-shadow: 5px -1px 30px 10px rgba(0, 0, 0, 0.75);
+	margin-bottom: 80px;
+	border-radius: 20%;
+	background-color: lightgrey;
+
+}
+
+.box{
+	width: 500px;
+	height: 500px;
+	background: #ffecd3;
+	margin: 0px auto;
+	border-radius: 20px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+.box a{
+	font-size: 25px;
+  padding: 10px 10px;
+  background-color: #dc7633;
+  color: #ffffff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  	text-shadow: 2px 2px 4px red;
+
+
+}
+.btn_link {
+
+  font-size: 25px;
+  padding: 10px 10px;
+  background-color: #dc7633;
+  color: #ffffff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  	text-shadow: 2px 2px 4px red;
+
+}
+.box a:hover {
+  background-color: lightgray;
+  color: #ffecd3;
+}
+.btn_link:hover {
+  background-color: lightgray;
+  color: #ffecd3;
+}

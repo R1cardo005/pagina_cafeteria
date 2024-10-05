@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+	body {
+	  	background-image: url(../image/fondo1.jpg);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: 100% 100%;
+	  overflow: hidden;
+		font-family: Comic Sans MS;
+		font-size: 25px;
+
+}
+
+.contenedor-principal{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 80%;
+	max-width: 1000px;
+	margin: 50px auto;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.logos{
+	font-size: 45px;
+	font-weight: 800;
+	color: #b15809;
+	text-decoration: none;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.menu a{
+	font-size: 25px;
+	border-bottom: 2px solid transparent;
+	margin-left: 40px;
+	color: #b15809;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	
+}
+
+.menu a:hover{
+	border-bottom: 2px solid #566573;
+	color: red;
+}
+
+main{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 25px;
+}
+
+main .contenedor-image{
+	width: 50%;
+	margin-right: 30px;
+}
+img{
+	height: 300px;
+	width: 300px;
+	border-radius: 30px;
+}
+.contenedor-texto .titulo{
+	font-size: 25px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.contenedor-texto .p{
+	font-size: 40px;
+	font-weight: 35px;
+	margin-bottom: 20px;
+}
+
+.contenedor-texto .cafe{
+	font-weight:  bold;
+	color:#dc7633;
+	font-size: normal;
+}
+
+.btn_link{
+	display: inline-block;
+	padding: 20px 20px;
+	border-radius: 100px;
+	background: #fdfefe;
+	margin-right:14px ;
+	text-decoration: none;
+	color:#dc7633;
+		color: #b15809;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.btn_link:hover {
+  background: #dc7633; /* change the background color to a darker shade */
+  color: #fff; /* change the text color to white */
+  transform: scale(1.1); /* add a slight scaling effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow effect */
+}
+.titulo1{
+		color: royalblue;
+
+
+}
